@@ -1,0 +1,71 @@
+{
+  "name": "lipcore",
+  "version": "4.1.11",
+  "description": "A platform to build bitcoin and blockchain-based applications.",
+  "author": "BitPay <dev@bitpay.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/** --recursive",
+    "build-deb": "./scripts/build-deb"
+  },
+  "bin": {
+    "lipcore": "./bin/lipcore",
+    "lipcored": "./bin/lipcored"
+  },
+  "contributors": [
+    "Charlie Lee <coblee@lipcoin.org>",
+    "Daniel Cousens <bitcoin@dcousens.com>",
+    "Esteban Ordano <eordano@gmail.com>",
+    "Gordon Hall <gordon@bitpay.com>",
+    "Jeff Garzik <jgarzik@bitpay.com>",
+    "Kyle Drake <kyle@kyledrake.net>",
+    "Manuel Araoz <manuelaraoz@gmail.com>",
+    "Matias Alejo Garcia <ematiu@gmail.com>",
+    "Ryan X. Charles <ryanxcharles@gmail.com>",
+    "Stefan Thomas <moon@justmoon.net>",
+    "Stephen Pair <stephen@bitpay.com>",
+    "Wei Lu <luwei.here@gmail.com>",
+    "Loshan T <loshan1212@gmail.com>"
+  ],
+  "keywords": [
+    "lipcoin",
+    "transaction",
+    "address",
+    "p2p",
+    "ecies",
+    "cryptocurrency",
+    "blockchain",
+    "payment",
+    "bip21",
+    "bip32",
+    "bip37",
+    "bip69",
+    "bip70",
+    "multisig"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lipcoin/lipcore.git"
+  },
+  "browser": {
+    "request": "browser-request"
+  },
+  "dependencies": {
+    "lipcore-lib": "^0.13.22",
+    "lipcore-node": "^3.1.12",
+    "insight-lip-api": "^0.4.4",
+    "insight-lip-ui": "^0.4.2"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  },
+  "bugs": {
+    "url": "https://github.com/lipcoin/lipcore/issues"
+  },
+  "homepage": "https://github.com/lipcoin/lipcore#readme",
+  "directories": {
+    "test": "test"
+  }
+}

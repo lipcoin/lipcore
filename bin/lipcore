@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+var lipcore = require('lipcore-node/lib/cli/bitcore');
+var path = require('path');
+var servicesPath = path.resolve(__dirname, '../');
+var additionalServices = ['insight-lip-api', 'insight-lip-ui'];
+lipcore(servicesPath, additionalServices);

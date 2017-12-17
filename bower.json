@@ -1,0 +1,30 @@
+{
+  "name": "lipcore",
+  "main": "./lipcore.min.js",
+  "version": "0.13.5",
+  "homepage": "http://lipcore.io",
+  "authors": [
+    "BitPay, Inc."
+  ],
+  "description": "A pure, powerful core for your lipcoin project.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "lipcoin",
+    "lipcore",
+    "ltc",
+    "satoshi"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "CONTRIBUTING.md",
+    "gulpfile.js",
+    "lib",
+    "index.js",
+    "karma.conf.js",
+    "npm-shrinkwrap.json",
+    "test"
+  ]
+}
